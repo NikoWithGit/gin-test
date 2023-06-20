@@ -1,0 +1,1 @@
+insert into books values(1, '1','test-title','test-author',82.38)
