@@ -32,7 +32,3 @@ func (s *Server) HandleAddBook(ctx *gin.Context) {
 
 	ctx.JSON(http.StatusOK, &book)
 }
-
-func (s *Server) Hi(ctx *gin.Context) {
-	ctx.String(http.StatusOK, "Hi")
-}

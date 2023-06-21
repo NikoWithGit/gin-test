@@ -31,7 +31,7 @@ func (s *Server) InitGin() *Server {
 	g := gin.Default()
 
 	s.Gin = g
-
+	s.Gin.LoadHTMLGlob("./static/*.html")
 	return s
 }
 
